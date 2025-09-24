@@ -1,5 +1,9 @@
 import Hero from "../components/Hero";
 import ServiceCard from "../components/ServiceCard";
+import WhyChooseUs from "../components/WhyChooseUs";
+import Testimonials from "../components/Testimonials";
+import BlogSection from "../components/BlogSection";
+import CTA from "../components/CTA";
 import { FaShieldAlt, FaCloud, FaUsers, FaNetworkWired, FaDatabase } from "react-icons/fa";
 
 export default function Home() {
@@ -12,16 +16,29 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-gray-800">
+    <div className="text-slate-700">
       <Hero />
-      <section className="py-16 bg-gray-100">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-          {services.map((s, i) => (
-            <ServiceCard key={i} {...s} />
-          ))}
+      
+      {/* Services Section with updated background and padding */}
+      <section className="py-20 bg-slate-50">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h2 className="text-3xl font-bold text-slate-800 mb-4">Our Core Services</h2>
+          <p className="text-lg text-slate-500 mb-12 max-w-2xl mx-auto">
+            We provide a comprehensive suite of IT services to support your business at every stage.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            {services.map((s, i) => (
+              <ServiceCard key={i} {...s} />
+            ))}
+          </div>
         </div>
       </section>
+      
+      <WhyChooseUs />
+
+      <Testimonials />
+      <BlogSection />
+      <CTA />
     </div>
   );
 }
