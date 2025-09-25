@@ -1,15 +1,15 @@
 export default function CTA() {
   return (
-    <section className="py-20 bg-[#0F172A] text-white">
+    <section className="h-screen w-full flex items-center justify-center bg-white snap-start">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Ready to Elevate Your Business Technology?
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tighter">
+          Start Your Project Now!
         </h2>
-        <p className="text-lg text-slate-300 mb-8">
-          Let's talk about how Bit Crypt can help you achieve your goals. Our team is ready to provide a free, no-obligation consultation.
+        <p className="text-lg text-gray-600 mb-8">
+          Made for your convenience, for a more successful and secure future for your business.
         </p>
-        <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300">
-          Schedule Your Free Consultation
+        <button className="px-8 py-3 bg-black text-white font-semibold rounded-lg shadow-lg hover:bg-gray-800 transition-all">
+          Contact Us
         </button>
       </div>
     </section>

@@ -1,14 +1,10 @@
 @import "tailwindcss";
 
 body {
-  background-color: #f8fafc; /* A light gray for the base background */
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color: #334155; /* A dark slate for primary text for better readability */
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif; /* A modern, clean font similar to the PDF */
+  color: #1a202c; /* A dark, professional text color */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom class for a subtle section separator */
-.section-separator {
-  border-top: 1px solid #e2e8f0;
-}
