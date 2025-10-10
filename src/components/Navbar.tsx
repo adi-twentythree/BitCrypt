@@ -5,6 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
+    { name: "Home", href: "/" },
     { name: "Services", href: "#services" },
     { name: "About", href: "#about" },
     { name: "Blog", href: "#blog" },
