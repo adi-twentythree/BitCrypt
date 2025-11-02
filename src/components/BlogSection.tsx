@@ -5,25 +5,24 @@ export default function BlogSection() {
       title: "Top Cybersecurity Threats of 2025", 
       excerpt: "Stay ahead of cyber threats by understanding the most common attacks and how to prevent them...", 
       href: "/blog/cybersecurity-threats-2025",
-      image: "https://images.unsplash.com/photo-1593642632823-8f766f753c89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzM4MTN8MHwxfHNlYXJjaHwyMHx8Y3liZXJzZWN1cml0eXxlbnwwfHx8fDE3MTUyMTUzNDN8MA&ixlib=rb-4.0.3&q=80&w=400"
+      image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=400"
     },
     { 
       title: "Is Your Business Ready for the Cloud?", 
       excerpt: "Migrating to the cloud can be a game-changer. Here's what you need to know...", 
       href: "/blog/cloud-migration-guide",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzM4MTN8MHwxfHNlYXJjaHwyMHx8Y2xvdWRfY29tcHV0aW5nfGVufDB8fHx8MTcxNTIxNTM4MXww&ixlib=rb-4.0.3&q=80&w=400"
+      image: "https://images.unsplash.com/photo-1690627931320-16ac56eb2588?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=400"
     },
     { 
       title: "How Data Analytics Can Drive Growth", 
       excerpt: "Unlock the power of your data. Learn how analytics can provide valuable insights...", 
       href: "/blog/data-analytics-growth",
-      image: "https://images.unsplash.com/photo-1551288258-edc41b87df7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzM4MTN8MHwxfHNlYXJjaHwyMHx8ZGF0YV9hbmFseXRpY3N8ZW58MHx8fHwxNzE1MjE1NDE0fDA&ixlib=rb-4.0.3&q=80&w=400"
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=400"
     },
   ];
 
   return (
-    <section id="blog" className=" w-full flex items-center justify-center bg-gray-50 snap-start py-16 px-4">
-      <div className="max-w-7xl mx-auto text-center">
+<section id="blog" className=" w-full flex items-center justify-center bg-gray-50 snap-start py-16 px-4 scroll-m-t-20">      <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-12 tracking-tighter text-gray-900">From Our Blog</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {posts.map((post, index) => (

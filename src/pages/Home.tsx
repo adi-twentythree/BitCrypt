@@ -22,8 +22,8 @@ export default function Home() {
     <div>
       <Hero />
 
-
-      <section id="services" className="h-screen w-full flex items-center justify-center bg-white snap-start">
+{/* --- Services Section --- */}
+     <section id="services" className="w-full flex items-center justify-center bg-white snap-start py-24 px-4 scroll-m-t-20">
         <div className="flex flex-col max-w-6xl mx-auto px-6 text-center gap-8">
           <div className="flex w-full max-w-[1024px] flex-col items-center gap-6">
             <span className="font-['Inter'] text-[14px] font-[600] leading-[20px] text-brand-600 text-center tracking-[0.15em]">

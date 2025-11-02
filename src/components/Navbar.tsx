@@ -14,8 +14,13 @@ export default function Navbar() {
   return (
     <nav className="bg-white/80 backdrop-blur-md fixed top-0 left-0 w-full z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
-        <a href="/" className="text-2xl font-bold text-gray-800">
-          BitCrypt
+
+        <a href="/" className="flex-shrink-0">
+          <img
+            className="h-16 w-auto"
+            src="logo.png"
+            alt="BitCrypt"
+          />
         </a>
 
         <div className="hidden md:flex items-center space-x-8">

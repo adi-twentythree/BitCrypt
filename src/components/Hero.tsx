@@ -2,9 +2,8 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center text-center px-4 overflow-hidden">
-      {/* --- Background Image & Overlay --- */}
-      {/* Simplified to one image and one overlay for clarity and performance. */}
+<section className="relative min-h-screen flex items-center justify-center text-center px-4 overflow-hidden">      {/* --- Background Image & Overlay --- */}
+
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=80"
@@ -15,26 +14,26 @@ export default function Hero() {
       </div>
 
       {/* --- Content --- */}
-      {/* Added 'flex' and 'flex-col' to make the 'gap-6' property work correctly for vertical spacing. */}
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="relative w-full max-w-4xl flex flex-col items-center justify-center gap-6 text-white"
       >
-        {/* Changed to h1 for semantic meaning. */}
+
         <h1 className="max-w-3xl font-['Inter'] text-5xl md:text-7xl font-bold leading-tight -tracking-tighter text-center">
           We Craft the Future of Technology.
         </h1>
 
-        {/* Changed to p for semantic meaning and removed the unnecessary <br /> tag. */}
+
         <p className="max-w-xl font-['Inter'] text-lg md:text-xl font-medium leading-relaxed text-gray-300 text-center -tracking-tight">
           Crafted for your business's success, to enhance your current
           operations and pave the way for a more efficient and secure future for
           you and your team.
         </p>
 
-        {/* This container now gets its top spacing from the parent's 'gap' property. */}
+
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
           <motion.button
             whileHover={{ scale: 1.05 }}

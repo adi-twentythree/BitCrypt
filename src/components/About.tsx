@@ -41,8 +41,7 @@ export default function About() {
     }, [index]);
 
     return (
-        <section id="about" className="min-h-screen w-full flex flex-col items-center justify-center bg-gray-100 snap-start p-4 sm:p-6 md:p-8">
-            <div className="max-w-6xl mx-auto w-full flex flex-col items-center text-center gap-16 py-16">
+<section id="about" className="w-full flex flex-col items-center justify-center bg-gray-100 snap-start p-4 sm:p-6 md:p-8 py-24 scroll-m-t-20">            <div className="max-w-6xl mx-auto w-full flex flex-col items-center text-center gap-16 py-16">
 
                 {/* --- Section Header --- */}
                 <div className="flex flex-col gap-4 items-center">
