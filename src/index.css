@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
-body {
-  background-color: #ffffff;
-  font-family: 'Inter', sans-serif; /* A modern, clean font similar to the PDF */
-  color: #1a202c; /* A dark, professional text color */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --brand-primary: #0A2A66;
+  --brand-secondary: #153B8C;
+  --brand-accent: #37C3FF;
+  --brand-dark: #071B44;
+  --brand-light: #E7F8FF;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
