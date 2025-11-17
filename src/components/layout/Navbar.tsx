@@ -8,9 +8,9 @@ export default function Navbar() {
 
   const links = [
     { name: "Home", href: "/" },
-    { name: "Services", href: "/#services" },
-    { name: "Why Us", href: "/#why-us" },
-    { name: "Blog", href: "/#blog" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Blog", href: "/blog" },
   ];
 
   const isHome = location.pathname === "/";
