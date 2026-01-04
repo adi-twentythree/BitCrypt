@@ -12,7 +12,6 @@ import {
   FaCloud,
   FaServer,
   FaFileContract,
-  FaCoins,
 } from "react-icons/fa";
 
 export default function Services() {
@@ -95,8 +94,6 @@ export default function Services() {
             ]}
           />
 
-          <PricingModels />
-
           <FAQSection />
         </div>
       </section>
@@ -148,39 +145,6 @@ function ServiceCategory({ title, icon, services }: ServiceCategoryProps) {
 }
 
 
-function PricingModels() {
-  const models = [
-    { title: "Hourly Rate", desc: "Flexible billing ideal for short-term needs." },
-    { title: "Project-Based Pricing", desc: "Fixed pricing for well-defined projects." },
-    { title: "Retainer Contracts", desc: "Monthly/quarterly ongoing support." },
-    { title: "Subscription Plans", desc: "Continuous access to selected services." },
-    { title: "Custom Pricing", desc: "Fully tailored to your business requirements." },
-  ];
-
-  return (
-    <div>
-      <h2 className="text-3xl md:text-4xl font-bold text-[#0A2A66] tracking-tight mb-12 flex items-center gap-3">
-        <FaCoins /> Pricing Models
-      </h2>
-
-      <div className="grid md:grid-cols-2 gap-10">
-        {models.map((model, i) => (
-          <motion.div
-            key={i}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.45 }}
-            className="p-8 bg-gray-50 border border-gray-200 rounded-2xl shadow-sm hover:shadow-xl transition-all"
-          >
-            <h3 className="text-xl font-semibold text-[#0A2A66] mb-3">{model.title}</h3>
-            <p className="text-gray-600">{model.desc}</p>
-          </motion.div>
-        ))}
-      </div>
-    </div>
-  );
-}
 
 
 function FAQSection() {
