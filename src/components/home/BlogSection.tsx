@@ -84,14 +84,14 @@ export default function BlogSection() {
               </div>
 
               {/* Content */}
-              <div className="p-8 flex flex-col flex-grow">
+              <div className="p-8 flex flex-col grow">
                 <span className="text-gray-500 text-sm mb-2">{post.date}</span>
 
                 <h3 className="text-xl font-semibold text-[#0A2A66] mb-3 group-hover:text-[#153B8C] transition-colors">
                   {post.title}
                 </h3>
 
-                <p className="text-gray-600 mb-6 flex-grow leading-relaxed">
+                <p className="text-gray-600 mb-6 grow leading-relaxed">
                   {post.excerpt}
                 </p>
 
