@@ -11,42 +11,42 @@ import {
 
 const services = [
   {
-    num: "01",
+    num: "",
     title: "Cyber Security",
     description:
       "Robust protection against modern threats, ensuring your data and systems remain secure.",
     icon: <FaShieldAlt size={26} />,
   },
   {
-    num: "02",
+    num: "",
     title: "Cloud Solutions",
     description:
       "Highly scalable cloud infrastructure designed for performance, reliability, and efficiency.",
     icon: <FaCloud size={26} />,
   },
   {
-    num: "03",
+    num: "",
     title: "IT Revamping",
     description:
       "Modernized systems and optimized architecture to elevate your digital ecosystem.",
     icon: <FaSyncAlt size={26} />,
   },
   {
-    num: "04",
+    num: "",
     title: "Consulting",
     description:
       "Expert guidance to help you navigate complex technical challenges and business needs.",
     icon: <FaUsers size={26} />,
   },
   {
-    num: "05",
+    num: "",
     title: "Network Solutions",
     description:
       "Secure, reliable, and high-performing network systems tailored for your workflows.",
     icon: <FaNetworkWired size={26} />,
   },
   {
-    num: "06",
+    num: "",
     title: "Data & Analytics",
     description:
       "Turn meaningful insights into powerful decisions using our advanced analytical solutions.",
