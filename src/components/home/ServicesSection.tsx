@@ -64,7 +64,7 @@ function SpotlightCard({ children, className = "" }: { children: React.ReactNode
 const services = [
   {
     num: "01",
-    title: "Software Development",
+    title: "Cyber Security",
     description:
       "Custom software solutions tailored to your business needs, built with the latest technologies.",
     icon: <FaCode size={26} />,
@@ -78,7 +78,7 @@ const services = [
   },
   {
     num: "03",
-    title: "Cyber Security",
+    title: "IT Revamping",
     description:
       "Robust protection against modern threats, ensuring your data and systems remain secure.",
     icon: <FaSyncAlt size={26} />,
